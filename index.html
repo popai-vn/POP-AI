@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POP-AI — Hệ sinh thái P.O.P & Trợ lý ảo phục hồi tập trung sâu</title>
+    <title>POP-AI — Mô hình P.O.P & Trợ lý ảo phục hồi tập trung sâu</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts: Be Vietnam Pro, Plus Jakarta Sans & Newsreader -->
@@ -227,23 +227,7 @@
     <!-- ========================================================= -->
     <!-- 1. MÀN HÌNH ĐĂNG NHẬP SPLIT-SCREEN HIỆN ĐẠI               -->
     <!-- ========================================================= -->
-    <div id="auth-screen" class="min-h-screen w-full flex flex-col items-center justify-center p-4 sm:p-6 lg:p-10">
-        <!-- Thanh chọn nhanh bảng màu ngay ngoài màn hình Đăng nhập -->
-        <div class="mb-4 flex items-center gap-2 bg-white/90 backdrop-blur px-4 py-2 rounded-full border border-slate-200 shadow-sm text-xs">
-            <span class="font-semibold text-slate-500 mr-1">Chủ đề màu sắc:</span>
-            <button onclick="setTheme('indigo')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full hover:bg-slate-100 font-medium text-slate-700" title="Indigo & Teal (Mặc định mới)">
-                <span class="w-3 h-3 rounded-full bg-[#3730A3] inline-block"></span> Indigo
-            </button>
-            <button onclick="setTheme('ocean')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full hover:bg-slate-100 font-medium text-slate-700" title="Ocean Calm">
-                <span class="w-3 h-3 rounded-full bg-[#0369A1] inline-block"></span> Ocean
-            </button>
-            <button onclick="setTheme('sunrise')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full hover:bg-slate-100 font-medium text-slate-700" title="Sunrise Academic">
-                <span class="w-3 h-3 rounded-full bg-[#D97706] inline-block"></span> Sunrise
-            </button>
-            <button onclick="setTheme('forest')" class="flex items-center gap-1.5 px-2.5 py-1 rounded-full hover:bg-slate-100 font-medium text-slate-700" title="Forest Classic">
-                <span class="w-3 h-3 rounded-full bg-[#1C352D] inline-block"></span> Forest
-            </button>
-        </div>
+    <div id="auth-screen" class="min-h-screen w-full flex flex-col items-center justify-center p-4 sm:p-6 lg:p-10">      
 
         <div class="soft-card w-full max-w-5xl overflow-hidden grid grid-cols-1 lg:grid-cols-12 shadow-xl">
             <!-- Cột Trái (7/12): Infographic Quy trình P.O.P & Số liệu KHKT -->
@@ -251,14 +235,13 @@
                 <div class="relative z-10">
                     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 backdrop-blur-sm text-xs font-semibold tracking-wide mb-5">
                         <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-                        <span>DỰ ÁN NGHIÊN CỨU KHKT — LĨNH VỰC KHOA HỌC HÀNH VI</span>
+                        <span>DỰ ÁN NGHIÊN CỨU KHKT 2026</span>
                     </div>
-
-                    <h1 class="font-serif-title text-3xl sm:text-4xl font-bold leading-tight mb-3">
-                        Hệ sinh thái P.O.P &<br>Trợ lý ảo 🤖POP-AI (Chú Ong Bee 🐝)
-                    </h1>
+<h1 class="font-serif-title text-2xl sm:text-3xl font-bold leading-tight mb-3">
+    Mô hình P.O.P<br><span class="whitespace-nowrap">Trợ lý ảo POP-AI 🤖 (Chú Ong Bee 🐝)</span>
+</h1>
                     <p class="text-sm text-white/85 leading-relaxed max-w-xl mb-8">
-                        Giải pháp can thiệp nhận diện <strong>Hội chứng Não bỏng ngô (Popcorn Brain)</strong>, khắc phục hiệu ứng <strong>Mere Presence Effect</strong> và phục hồi khả năng <strong>Tập trung sâu (Deep Work)</strong> cho học sinh THPT.
+                        Giải pháp can thiệp nhận diện <strong>Hội chứng Não bỏng ngô (Popcorn Brain)</strong>, và phục hồi khả năng <strong>Tập trung sâu</strong> cho học sinh THPT.
                     </p>
 
                     <!-- Sơ đồ 3 giai đoạn P.O.P -->
@@ -279,23 +262,7 @@
                             <p class="text-xs text-white/75 leading-relaxed">Đồng hành cùng Chú Ong Bee 🐝 trong Nhật ký 30 ngày & Biểu đồ tiến bộ.</p>
                         </div>
                     </div>
-                </div>
-
-                <!-- Số liệu thực nghiệm nổi bật -->
-                <div class="relative z-10 pt-5 border-t border-white/15 grid grid-cols-3 gap-4 text-center sm:text-left">
-                    <div>
-                        <p class="text-2xl font-bold text-amber-300">N = 230</p>
-                        <p class="text-[11px] text-white/75">Học sinh THPT tham gia khảo sát & thực nghiệm</p>
-                    </div>
-                    <div>
-                        <p class="text-2xl font-bold text-emerald-300">-0.670</p>
-                        <p class="text-[11px] text-white/75">Mức giảm biểu hiện Popcorn Brain (T = -6.84)</p>
-                    </div>
-                    <div>
-                        <p class="text-2xl font-bold text-cyan-200">+0.600</p>
-                        <p class="text-[11px] text-white/75">Mức tăng khả năng Tập trung sâu (T = +7.02)</p>
-                    </div>
-                </div>
+                </div>                
             </div>
 
             <!-- Cột Phải (5/12): Form Đăng nhập / Đăng ký -->
@@ -305,8 +272,8 @@
                         <span class="w-3.5 h-3.5 rounded-full bg-amber-400 shadow-[0_0_12px_#fbbf24]"></span>
                     </div>
                     <div>
-                        <h2 class="font-serif-title text-2xl font-bold text-slate-900 leading-none">POP-AI</h2>
-                        <p class="text-xs text-slate-500 mt-1">Đăng nhập hệ sinh thái rèn luyện tập trung</p>
+                        <h2 class="font-serif-title text-2xl font-bold text-slate-900 leading-none">P.O.P & POP-AI</h2>
+                        <p class="text-xs text-slate-500 mt-1">Giải pháp khoa học hành vi học đường</p>
                     </div>
                 </div>
 
@@ -324,7 +291,7 @@
                 <form id="auth-form" onsubmit="handleLoginSubmit(event)" class="space-y-4">
                     <div id="register-name-field" class="hidden">
                         <label class="block text-xs font-semibold text-slate-700 mb-1.5">Họ và tên</label>
-                        <input type="text" id="auth-name" value="Test 2" placeholder="Nhập họ và tên học sinh..." class="input-warm w-full">
+                        <input type="text" id="auth-name" value="Học sinh Test" placeholder="Nhập họ và tên học sinh..." class="input-warm w-full">
                     </div>
 
                     <div>
@@ -367,11 +334,11 @@
                     <div class="grid grid-cols-2 gap-2.5">
                         <button type="button" onclick="quickLogin('student')" class="p-2.5 rounded-xl bg-theme-soft hover:opacity-90 font-semibold text-xs flex items-center justify-center gap-1.5 transition">
                             <i data-lucide="graduation-cap" class="w-4 h-4"></i>
-                            <span>Học sinh (Test 2)</span>
+                            <span>Học sinh</span>
                         </button>
                         <button type="button" onclick="quickLogin('teacher')" class="p-2.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 font-semibold text-xs flex items-center justify-center gap-1.5 transition">
                             <i data-lucide="presentation" class="w-4 h-4"></i>
-                            <span>Giáo viên (12A1)</span>
+                            <span>Giáo viên</span>
                         </button>
                     </div>
                 </div>
@@ -433,20 +400,6 @@
 
                 <!-- Cụm Công Cụ Đổi Bảng Màu, Đổi Bố Cục & Tài Khoản -->
                 <div class="flex items-center gap-2 sm:gap-3">
-                    <!-- Bộ chọn 4 bảng màu trực tiếp -->
-                    <div class="hidden sm:flex items-center gap-1.5 bg-slate-100 px-2.5 py-1.5 rounded-full border border-slate-200/80" title="Đổi bảng màu giao diện">
-                        <button onclick="setTheme('indigo')" id="theme-dot-indigo" class="w-4 h-4 rounded-full bg-[#3730A3] ring-2 ring-offset-1 ring-[#3730A3] transition" title="Indigo & Teal (Khoa học & Tập trung sâu)"></button>
-                        <button onclick="setTheme('ocean')" id="theme-dot-ocean" class="w-4 h-4 rounded-full bg-[#0369A1] opacity-70 hover:opacity-100 transition" title="Ocean Calm (Dịu thần kinh)"></button>
-                        <button onclick="setTheme('sunrise')" id="theme-dot-sunrise" class="w-4 h-4 rounded-full bg-[#D97706] opacity-70 hover:opacity-100 transition" title="Sunrise Academic (Năng động)"></button>
-                        <button onclick="setTheme('forest')" id="theme-dot-forest" class="w-4 h-4 rounded-full bg-[#1C352D] opacity-70 hover:opacity-100 transition" title="Forest Classic (Nguyên bản)"></button>
-                    </div>
-
-                    <!-- Nút chuyển đổi Bố cục (Topbar Bento 2 cột <-> Sidebar dọc) -->
-                    <button onclick="toggleLayoutStyle()" id="layout-toggle-btn" class="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-slate-200 bg-white hover:bg-slate-50 text-xs font-semibold text-slate-700 transition" title="Chuyển đổi giữa Bố cục Topbar Bento và Sidebar dọc">
-                        <i data-lucide="columns" class="w-3.5 h-3.5 text-theme-primary"></i>
-                        <span id="layout-toggle-label">Bố cục: Bento 2 cột</span>
-                    </button>
-
                     <!-- Nút ẩn/hiện cột Trợ lý & Đồng hồ bên phải -->
                     <button onclick="toggleCompanionPanel()" id="companion-toggle-btn" class="hidden xl:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-theme-soft text-xs font-semibold transition" title="Ẩn/Hiện bảng Đồng hồ & Trợ lý bên phải">
                         <i data-lucide="panel-right-close" class="w-3.5 h-3.5"></i>
@@ -469,7 +422,7 @@
                             T
                         </div>
                         <div class="hidden sm:block text-left leading-tight">
-                            <p id="user-display-name" class="text-xs font-bold text-slate-800">Test 2</p>
+                            <p id="user-display-name" class="text-xs font-bold text-slate-800">Test</p>
                             <p id="user-display-sub" class="text-[10px] text-slate-400">Lớp 12A1 • KBF3CD</p>
                         </div>
                         <button onclick="logout()" class="p-2 rounded-xl text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition" title="Đăng xuất">
@@ -683,7 +636,7 @@
                                 <h1 class="font-serif-title text-2xl sm:text-3xl font-bold text-slate-900 mt-0.5">
                                     Giai đoạn Phòng ngừa
                                 </h1>
-                                <p class="text-xs text-slate-500 mt-1">Nhận diện biểu hiện Popcorn Brain, cảnh báo hiệu ứng Mere Presence Effect và đánh giá 4 chỉ số (VN, PT, PB, TT).</p>
+                                <p class="text-xs text-slate-500 mt-1">Nhận diện biểu hiện Popcorn Brain và đánh giá 4 chỉ số (VN, PT, PB, TT).</p>
                             </div>
                             <div class="flex flex-wrap gap-2 shrink-0">
                                 <button type="button" onclick="switchPreventTab('info')" id="prevent-tab-info" class="subtab-active px-3.5 py-2 rounded-xl text-xs border transition">
@@ -868,7 +821,7 @@
                                     Kế hoạch
                                 </button>
                                 <button type="button" onclick="switchOptimizeTab('exercises')" id="optimize-tab-exercises" class="subtab-inactive px-4 py-2 rounded-xl text-xs border transition">
-                                    8 Bài tập Rèn luyện
+                                    8 Bài tập rèn luyện
                                 </button>
                                 <button type="button" onclick="switchOptimizeTab('timer')" id="optimize-tab-timer" class="subtab-inactive px-4 py-2 rounded-xl text-xs border transition">
                                     Đồng hồ tập trung
@@ -933,7 +886,7 @@
                                         Lưu kế hoạch
                                     </button>
                                     <button type="button" onclick="switchOptimizeTab('exercises')" class="px-4 py-2.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-200 text-xs font-semibold transition">
-                                        ⚡ Mở 8 Bài tập Rèn luyện Optimize
+                                        ⚡ Mở 8 Bài tập rèn luyện Optimize
                                     </button>
                                     <span id="plan-saved-hint" class="text-xs text-emerald-700 font-medium hidden">
                                         ✓ Đã lưu kế hoạch và đồng bộ với 🤖POP-AI (Chú Ong Bee 🐝)!
@@ -949,7 +902,7 @@
                                     <div>
                                         <span class="text-[11px] font-bold uppercase tracking-wider text-amber-600">Bộ công cụ thực hành của Chú Ong Bee 🐝</span>
                                         <h3 class="font-serif-title text-xl font-bold text-slate-900 mt-0.5">
-                                            8 Bài tập Rèn luyện & Phục hồi Tập trung sâu
+                                            8 Bài tập rèn luyện & Phục hồi tập trung sâu
                                         </h3>
                                         <p class="text-xs text-slate-500 mt-0.5">Bấm vào bất kỳ bài tập nào dưới đây để kích hoạt ngay chế độ thực hành tương ứng.</p>
                                     </div>
@@ -1244,9 +1197,46 @@
 
                                 <form onsubmit="saveDailyDiary(event)" class="space-y-4">
                                     <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                                        <div>
+                                        <div class="relative" id="diary-date-picker-wrapper">
                                             <label class="block text-xs text-slate-600 mb-1.5">Ngày ghi nhận</label>
-                                            <input type="text" id="diary-date" value="03-24" class="input-warm w-full">
+                                            <div class="relative flex items-center">
+                                                <input type="text" id="diary-date" value="24/10/2026" placeholder="dd/mm/yyyy" readonly onclick="toggleDiaryCalendar(event)" class="input-warm w-full pr-10 cursor-pointer bg-white font-medium">
+                                                <button type="button" onclick="toggleDiaryCalendar(event)" class="absolute right-2.5 p-1 rounded-lg text-slate-400 hover:text-theme-primary hover:bg-slate-100 transition" title="Mở bảng lịch chọn ngày">
+                                                    <i data-lucide="calendar" class="w-4 h-4"></i>
+                                                </button>
+                                            </div>
+
+                                            <!-- Bảng lịch chọn ngày (Calendar Popup) -->
+                                            <div id="diary-calendar-popup" onclick="event.stopPropagation()" class="hidden absolute left-0 top-full mt-2 z-50 w-72 sm:w-80 bg-white rounded-2xl border border-slate-200 shadow-2xl p-4 select-none">
+                                                <div class="flex items-center justify-between mb-3 pb-2 border-b border-slate-100">
+                                                    <button type="button" onclick="changeDiaryCalendarMonth(-1)" class="p-1.5 rounded-xl hover:bg-slate-100 text-slate-600 transition" title="Tháng trước">
+                                                        <i data-lucide="chevron-left" class="w-4 h-4"></i>
+                                                    </button>
+                                                    <span id="diary-calendar-title" class="text-xs font-bold text-slate-800 uppercase tracking-wide">Tháng 10 / 2026</span>
+                                                    <button type="button" onclick="changeDiaryCalendarMonth(1)" class="p-1.5 rounded-xl hover:bg-slate-100 text-slate-600 transition" title="Tháng sau">
+                                                        <i data-lucide="chevron-right" class="w-4 h-4"></i>
+                                                    </button>
+                                                </div>
+
+                                                <div class="grid grid-cols-7 gap-1 text-center text-[10px] font-bold text-slate-400 mb-1.5">
+                                                    <div>T2</div><div>T3</div><div>T4</div><div>T5</div><div>T6</div><div>T7</div><div class="text-rose-500">CN</div>
+                                                </div>
+
+                                                <div id="diary-calendar-days" class="grid grid-cols-7 gap-1 text-center text-xs"></div>
+
+                                                <div class="mt-3 pt-2.5 border-t border-slate-100 flex items-center justify-between text-[11px]">
+                                                    <button type="button" onclick="selectTodayInDiaryCalendar()" class="font-semibold text-theme-primary hover:underline">
+                                                        Hôm nay
+                                                    </button>
+                                                    <div class="flex items-center gap-1.5 text-[10px] text-slate-400">
+                                                        <span class="w-1.5 h-1.5 rounded-full bg-teal-500 inline-block"></span>
+                                                        <span>Đã có nhật ký</span>
+                                                    </div>
+                                                    <button type="button" onclick="closeDiaryCalendar()" class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-600 font-semibold transition">
+                                                        Đóng
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div>
                                             <label class="block text-xs text-slate-600 mb-1.5">Thời gian xem video ngắn (phút)</label>
@@ -1287,7 +1277,7 @@
                         <!-- SUB-TAB 3.2: BÁO CÁO TIẾN BỘ -->
                         <div id="perform-content-report" class="soft-card p-6 sm:p-8">
                             <div class="flex flex-wrap items-center justify-between gap-2 mb-5 pb-3 border-b border-slate-100">
-                                <span class="text-xs font-medium text-slate-500">Biểu đồ theo dõi 7 ngày gần nhất (03-18 → 03-24)</span>
+                                <span class="text-xs font-medium text-slate-500">Biểu đồ theo dõi 7 ngày gần nhất (18/10/2026 → 24/10/2026)</span>
                                 <div class="inline-flex bg-slate-100 p-1 rounded-xl text-[11px]">
                                     <button type="button" onclick="setChartMode('single')" id="chart-mode-single" class="px-3 py-1 rounded-lg font-semibold bg-white text-theme-primary shadow-sm transition">
                                         Dữ liệu 1 ngày
@@ -1339,7 +1329,7 @@
                                     </div>
                                     <div>
                                         <h3 class="font-serif-title text-xl font-bold text-slate-900">Hành trình Nhật ký 30 ngày cùng Chú Ong Bee 🐝</h3>
-                                        <p class="text-xs text-slate-500 mt-0.5">Thiết kế theo 3 chặng (Phòng ngừa → Tối ưu hóa → Phát huy Deep Work) giúp hình thành thói quen tự học bền vững.</p>
+                                        <p class="text-xs text-slate-500 mt-0.5">Thiết kế theo 3 chặng (Phòng ngừa → Tối ưu hóa → Phát huy) giúp hình thành thói quen tự học bền vững.</p>
                                     </div>
                                 </div>
                                 <span id="challenge-progress-badge" class="px-3.5 py-1.5 rounded-full bg-amber-100 text-amber-900 text-xs font-bold self-start sm:self-auto">
@@ -1364,9 +1354,8 @@
                             </div>
                             <div class="flex items-center gap-2">
                                 <select id="classroom-select" onchange="handleClassSwitch(this.value)" class="px-3.5 py-2 rounded-xl border border-slate-300 bg-white text-xs font-semibold text-slate-700 outline-none">
-                                    <option value="empty">12A1 (Dữ liệu)</option>
-                                    <option value="active">12A1 (Đang hoạt động trực tiếp)</option>
-                                    <option value="khkt">Tổng hợp Thực nghiệm</option>
+                                    <option value="active" selected>Đang hoạt động trực tiếp</option>
+                                    <option value="data">Dữ liệu hồ sơ lớp</option>
                                 </select>
                                 <button onclick="createNewClassPrompt()" class="px-3.5 py-2 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 text-xs font-semibold text-slate-700 transition">
                                     + Tạo lớp mới
@@ -1400,24 +1389,24 @@
                             </div>
                             <div class="soft-card p-5">
                                 <p id="class-stat-avgfocus" class="text-2xl font-bold text-theme-accent mb-1">0</p>
-                                <p class="text-xs text-slate-500">Phiên tập trung TB</p>
+                                <p class="text-xs text-slate-500" id="class-stat-avgfocus-label">Phiên tập trung TB</p>
                             </div>
                         </div>
 
-                        <!-- Bảng "Đang diễn ra trong lớp (trực tiếp)" -->
+                        <!-- Bảng dữ liệu linh hoạt theo chế độ (Trực tiếp | Dữ liệu hồ sơ | Thực nghiệm) -->
                         <div class="soft-card p-6">
                             <div class="flex flex-wrap items-center justify-between gap-2 mb-1.5">
-                                <h3 class="font-serif-title text-lg font-bold text-slate-900">Đang diễn ra trong lớp (trực tiếp)</h3>
-                                <span class="text-[11px] text-slate-400">Tự cập nhật — không cần tải lại trang</span>
+                                <h3 id="class-table-title" class="font-serif-title text-lg font-bold text-slate-900">Đang diễn ra trong lớp (trực tiếp)</h3>
+                                <span id="class-table-badge" class="text-[11px] text-slate-400">Tự cập nhật — không cần tải lại trang</span>
                             </div>
-                            <p class="text-xs text-slate-500 mb-5">
+                            <p id="class-table-desc" class="text-xs text-slate-500 mb-5">
                                 Chỉ hiển thị nền tảng giảm/đang xem (nếu có) — không ghi lại địa chỉ trang khác, để tôn trọng quyền riêng tư của học sinh.
                             </p>
 
                             <div class="overflow-x-auto">
                                 <table class="w-full text-left border-collapse text-xs">
                                     <thead>
-                                        <tr class="border-b border-slate-200 text-slate-500 bg-slate-50">
+                                        <tr id="class-table-head" class="border-b border-slate-200 text-slate-500 bg-slate-50">
                                             <th class="py-2.5 px-3 font-semibold w-1/3">Họ tên</th>
                                             <th class="py-2.5 px-3 font-semibold w-1/3">Trạng thái</th>
                                             <th class="py-2.5 px-3 font-semibold w-1/3">Cập nhật</th>
@@ -1428,66 +1417,6 @@
                                             <td colspan="3" class="py-8 text-center text-slate-400 text-xs">
                                                 Chưa có dữ liệu trực tiếp — học sinh cần cài tiện ích và tham gia lớp.
                                             </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-
-                        <!-- BẢNG KẾT QUẢ THỰC NGHIỆM KHKT (N=230) -->
-                        <div class="soft-card p-6 sm:p-8">
-                            <div class="pb-4 mb-5 border-b border-slate-200">
-                                <span class="text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-lg bg-theme-soft">Báo cáo Thực nghiệm KHKT</span>
-                                <h3 class="font-serif-title text-xl font-bold text-slate-900 mt-1.5">
-                                    Kết quả thực nghiệm sư phạm (N = 230 học sinh THPT)
-                                </h3>
-                                <p class="text-xs text-slate-500">So sánh Nhóm Đối chứng (N = 115) và Nhóm Thực nghiệm sử dụng P.O.P & POP-AI (N = 115) bằng kiểm định Independent Samples T-Test.</p>
-                            </div>
-
-                            <div class="overflow-x-auto">
-                                <table class="w-full text-left border-collapse text-xs">
-                                    <thead>
-                                        <tr class="border-b border-slate-200 text-slate-500 bg-slate-50">
-                                            <th class="py-3 px-3">Nhân tố đo lường</th>
-                                            <th class="py-3 px-3">Đối chứng (N=115)</th>
-                                            <th class="py-3 px-3">Thực nghiệm (N=115)</th>
-                                            <th class="py-3 px-3">Mean Diff</th>
-                                            <th class="py-3 px-3">T (df=228)</th>
-                                            <th class="py-3 px-3">Sig.</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="divide-y divide-slate-200/70">
-                                        <tr>
-                                            <td class="py-3 px-3 font-semibold text-slate-800">1. Thói quen video ngắn (VN)</td>
-                                            <td class="py-3 px-3">3.62 <span class="text-slate-400">(0.71)</span></td>
-                                            <td class="py-3 px-3 font-bold text-theme-primary">3.11 <span class="font-normal text-slate-400">(0.68)</span></td>
-                                            <td class="py-3 px-3 text-emerald-700 font-semibold">-0.510</td>
-                                            <td class="py-3 px-3">-5.25</td>
-                                            <td class="py-3 px-3 font-bold text-theme-primary">0.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="py-3 px-3 font-semibold text-slate-800">2. Phụ thuộc thiết bị số (PT)</td>
-                                            <td class="py-3 px-3">3.48 <span class="text-slate-400">(0.69)</span></td>
-                                            <td class="py-3 px-3 font-bold text-theme-primary">2.97 <span class="font-normal text-slate-400">(0.66)</span></td>
-                                            <td class="py-3 px-3 text-emerald-700 font-semibold">-0.510</td>
-                                            <td class="py-3 px-3">-5.11</td>
-                                            <td class="py-3 px-3 font-bold text-theme-primary">0.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="py-3 px-3 font-semibold text-slate-800">3. Biểu hiện Popcorn Brain (PB)</td>
-                                            <td class="py-3 px-3">3.41 <span class="text-slate-400">(0.72)</span></td>
-                                            <td class="py-3 px-3 font-bold text-theme-primary">2.74 <span class="font-normal text-slate-400">(0.63)</span></td>
-                                            <td class="py-3 px-3 text-emerald-700 font-bold">-0.670</td>
-                                            <td class="py-3 px-3">-6.84</td>
-                                            <td class="py-3 px-3 font-bold text-theme-primary">0.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="py-3 px-3 font-semibold text-slate-800">4. Khả năng tập trung sâu (TT)</td>
-                                            <td class="py-3 px-3">3.18 <span class="text-slate-400">(0.67)</span></td>
-                                            <td class="py-3 px-3 font-bold text-theme-secondary">3.78 <span class="font-normal text-slate-400">(0.61)</span></td>
-                                            <td class="py-3 px-3 text-theme-secondary font-bold">+0.600</td>
-                                            <td class="py-3 px-3">+7.02</td>
-                                            <td class="py-3 px-3 font-bold text-theme-primary">0.000</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -1518,7 +1447,7 @@
                                             </span>
                                         </div>
                                         <p class="text-xs sm:text-sm text-slate-500 mt-1">
-                                            Vận hành theo Mô hình P.O.P (Prevent – Optimize – Perform), cảnh báo <em>Mere Presence Effect</em> & hướng dẫn 8 bài tập rèn luyện tập trung sâu.
+                                            Vận hành theo Mô hình P.O.P (Prevent – Optimize – Perform) rèn luyện tập trung sâu.
                                         </p>
                                     </div>
                                 </div>
@@ -1565,14 +1494,14 @@
                             <!-- Thanh tóm tắt dữ liệu cá nhân thời gian thực đang nạp cho Gem -->
                             <div class="mt-3 pt-1 flex flex-wrap items-center justify-between gap-2 text-[11px] text-slate-500">
                                 <div class="flex flex-wrap items-center gap-1.5">
-                                    <span class="font-bold text-slate-700">Dữ liệu nạp vào 🤖POP-AI:</span>
+                                    <span class="font-bold text-slate-700">Dữ liệu gần đây 🤖POP-AI:</span>
                                     <span id="ai-ctx-pill-scores" class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 font-medium">PB: 2.74 • TT: 3.80</span>
                                     <span id="ai-ctx-pill-detox" class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 font-medium">Detox: 19:30–20:30</span>
-                                    <span id="ai-ctx-pill-diary" class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 font-medium">03-24: 37p tập trung • 35p video</span>
+                                    <span id="ai-ctx-pill-diary" class="px-2 py-0.5 rounded-md bg-slate-100 text-slate-700 font-medium">24/10/2026: 37p tập trung • 35p video</span>
                                 </div>
                                 <button type="button" onclick="copyGemSystemInstruction()" class="text-theme-primary font-semibold hover:underline flex items-center gap-1">
                                     <i data-lucide="file-code" class="w-3 h-3"></i>
-                                    <span>Chép System Instruction của Chú Ong Bee</span>
+                                    <span>Lưu khuyến nghị của Chú Ong Bee</span>
                                 </button>
                             </div>
                         </div>
@@ -1598,7 +1527,7 @@
                                 <!-- Tin nhắn 3: POP-AI trả lời dựa trên số liệu cá nhân -->
                                 <div class="max-w-[92%] bg-slate-100 rounded-2xl p-4 text-xs sm:text-sm text-slate-800 leading-relaxed space-y-1.5">
                                     <p class="text-[11px] font-bold text-theme-primary">🤖POP-AI - Trợ Lý Học Tập Số</p>
-                                    <p>Bạn đã có tiến triển: hôm 24/3 đã giữ được 37 phút tập trung và cảm giác tập trung 3/5 — rất đáng khen.</p>
+                                    <p>Bạn đã có tiến triển: hôm 24/10/2026 đã giữ được 37 phút tập trung và cảm giác tập trung 3/5 — rất đáng khen.</p>
                                     <p>Gợi ý cụ thể cho hôm nay/tuần này (chỉ 1–2 bước): 1) Tạo ngay một kế hoạch tối ưu hoá siêu ngắn: ghi 1 nhiệm vụ quan trọng (Toán/Lý/Anh...) và cam kết hoàn thành trước khi được xem video ngắn; 2) Dùng một phiên tập trung dài hơn thay vì nhiều phiên ngắn — đặt hẹn giờ 25–30 phút hoặc 50 phút, để điện thoại ra khỏi tầm với và chỉ cho phép 10–15 phút xem video làm thưởng sau khi hoàn thành.</p>
                                 </div>
                             </div>
@@ -1710,11 +1639,11 @@
                             <div class="pt-5 border-t border-slate-200">
                                 <h3 class="font-serif-title text-lg font-bold text-slate-900 mb-2">3. Chế độ hồ sơ người dùng</h3>
                                 <div class="flex flex-wrap gap-3">
-                                    <button onclick="setProfileIdentity('Test 2', 'Học sinh', 'Lớp 12A1 • Mã: KBF3CD')" class="px-4 py-2 rounded-xl bg-theme-soft text-xs font-semibold">
-                                        Test 2 (Học sinh)
+                                    <button onclick="setProfileIdentity('Học sinh Test', 'Học sinh', 'Lớp 12A1 • Mã: KBF3CD')" class="px-4 py-2 rounded-xl bg-theme-soft text-xs font-semibold">
+                                        Học sinh
                                     </button>
-                                    <button onclick="setProfileIdentity('Minh Tuấn Hoàng', 'Giáo viên', 'GV Chủ nhiệm 12A1')" class="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold">
-                                        Minh Tuấn Hoàng (Giáo viên)
+                                    <button onclick="setProfileIdentity('Giáo viên', 'Giáo viên', 'GV Chủ nhiệm')" class="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold">
+                                        Giáo viên
                                     </button>
                                 </div>
                             </div>
@@ -1839,7 +1768,7 @@
                         </div>
 
                         <p id="mini-ai-preview" class="text-xs text-slate-600 bg-slate-50 p-3 rounded-xl border border-slate-200/70 leading-relaxed mb-3">
-                            "Hôm 24/3 bạn đã giữ được <strong>37 phút tập trung</strong> và giảm video ngắn còn <strong>35 phút</strong>. Hãy hoàn thành 1 phiên Pomodoro 25 phút trước khi giải lao nhé!"
+                            "Hôm 24/10/2026 bạn đã giữ được <strong>37 phút tập trung</strong> và giảm video ngắn còn <strong>35 phút</strong>. Hãy hoàn thành 1 phiên Pomodoro 25 phút trước khi giải lao nhé!"
                         </p>
 
                         <form onsubmit="handleMiniAiSubmit(event)" class="flex gap-2 mb-2.5">
@@ -1859,21 +1788,21 @@
                         </div>
                     </div>
 
-                </aside>
+               </aside>
 
             </div>
         </div>
-    </div>
 
-    <!-- NÚT BONG BÓNG NỔI (FLOATING GEM BUTTON) Ở GÓC DƯỚI MÀN HÌNH -->
-    <div id="floating-gem-btn" class="fixed bottom-5 right-5 z-40 flex items-center gap-2">
-        <button type="button" onclick="navigate('ai')" class="group flex items-center gap-2.5 pl-3.5 pr-4 py-2.5 rounded-full hero-banner-gradient text-white shadow-xl hover:scale-[1.03] transition-all border border-white/20">
-            <span class="text-lg">🤖</span>
-            <div class="text-left leading-tight">
-                <p class="text-xs font-bold">POP-AI • Trợ Lý Học Tập Số</p>
-                <p class="text-[10px] text-white/80 hidden sm:block">Tư vấn P.O.P cá nhân hóa</p>
-            </div>
-        </button>
+        <!-- NÚT BONG BÓNG NỔI (FLOATING GEM BUTTON) Ở GÓC DƯỚI MÀN HÌNH -->
+        <div id="floating-gem-btn" class="fixed bottom-5 right-5 z-40 flex items-center gap-2">
+            <button type="button" onclick="navigate('ai')" class="group flex items-center gap-2.5 pl-3.5 pr-4 py-2.5 rounded-full hero-banner-gradient text-white shadow-xl hover:scale-[1.03] transition-all border border-white/20">
+                <span class="text-lg">🤖</span>
+                <div class="text-left leading-tight">
+                    <p class="text-xs font-bold">POP-AI • Trợ Lý Học Tập Số</p>
+                    <p class="text-[10px] text-white/80 hidden sm:block">Tư vấn P.O.P cá nhân hóa</p>
+                </div>
+            </button>
+        </div>
     </div>
 
     <!-- MODAL CẤU HÌNH GEM "🤖POP-AI - TRỢ LÝ HỌC TẬP SỐ" & MÃ QR -->
@@ -1988,12 +1917,12 @@
             layout: 'bento', // 'bento' (Topbar + 2 cột) hoặc 'sidebar' (Sidebar dọc)
             companionVisible: true,
             user: {
-                name: 'Test 2',
+                name: 'Học sinh Test',
                 email: 'admin@admin.com',
                 role: 'Học sinh',
                 sub: 'Lớp 12A1 • KBF3CD'
             },
-            chartMode: 'single', // 'single' (1 điểm ngày 03-24) hoặc 'week' (đầy đủ 7 ngày)
+            chartMode: 'single', // 'single' (1 điểm ngày 24/10/2026) hoặc 'week' (đầy đủ 7 ngày)
             plan: {
                 currentVideo: 120,
                 targetVideo: 45,
@@ -2010,13 +1939,13 @@
                 tt: 3.80
             },
             diary7Days: [
-                { date: '03-18', video: 115, focus: 15, rating: 2, note: 'Còn hay mở TikTok khi giải Toán' },
-                { date: '03-19', video: 95,  focus: 20, rating: 3, note: 'Áp dụng khung giờ Detox 19:30' },
-                { date: '03-20', video: 80,  focus: 25, rating: 3, note: 'Hoàn thành 1 phiên Pomodoro 25p' },
-                { date: '03-21', video: 65,  focus: 30, rating: 4, note: 'Đọc sâu chương Sinh học không cầm ĐT' },
-                { date: '03-22', video: 55,  focus: 32, rating: 4, note: 'Giảm hẳn thói quen lướt Reels khuya' },
-                { date: '03-23', video: 45,  focus: 35, rating: 4, note: 'Làm 2 phiên Single-tasking' },
-                { date: '03-24', video: 35,  focus: 37, rating: 3, note: 'Hoàn thành đề cương Toán chương 3' }
+                { date: '18/10/2026', video: 115, focus: 15, rating: 2, note: 'Còn hay mở TikTok khi giải Toán' },
+                { date: '19/10/2026', video: 95,  focus: 20, rating: 3, note: 'Áp dụng khung giờ Detox 19:30' },
+                { date: '20/10/2026', video: 80,  focus: 25, rating: 3, note: 'Hoàn thành 1 phiên Pomodoro 25p' },
+                { date: '21/10/2026', video: 65,  focus: 30, rating: 4, note: 'Đọc sâu chương Sinh học không cầm ĐT' },
+                { date: '22/10/2026', video: 55,  focus: 32, rating: 4, note: 'Giảm hẳn thói quen lướt Reels khuya' },
+                { date: '23/10/2026', video: 45,  focus: 35, rating: 4, note: 'Làm 2 phiên Single-tasking' },
+                { date: '24/10/2026', video: 35,  focus: 37, rating: 3, note: 'Hoàn thành đề cương Toán chương 3' }
             ],
             questions: [
                 { code: 'VN1', group: 'VN', groupName: 'Nhóm 1: Thói quen sử dụng video ngắn (VN)', text: 'Tôi thường xuyên xem TikTok, Reels hoặc YouTube Shorts mỗi ngày.', val: 3 },
@@ -2084,7 +2013,7 @@
         }
 
         function copyStudentContextForGem() {
-            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '03-24', video: 35, focus: 37, rating: 3 };
+            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '24/10/2026', video: 35, focus: 37, rating: 3 };
             const summaryPrompt = `Chào 🤖POP-AI - Trợ Lý Học Tập Số (Chú Ong Bee 🐝)! Đây là Hồ sơ P.O.P hiện tại của mình:\n` +
                 `- Học sinh: ${appState.user.name} (${appState.user.sub})\n` +
                 `- Điểm tự đánh giá (thang 5): Video ngắn (VN)=${appState.scores.vn}, Phụ thuộc thiết bị (PT)=${appState.scores.pt}, Popcorn Brain (PB)=${appState.scores.pb}, Tập trung sâu (TT)=${appState.scores.tt}\n` +
@@ -2286,17 +2215,17 @@
 
         function handleLoginSubmit(e) {
             e.preventDefault();
-            const nameInput = document.getElementById('auth-name').value.trim() || 'Test 2';
+            const nameInput = document.getElementById('auth-name').value.trim() || 'Học sinh Test';
             setProfileIdentity(nameInput, 'Học sinh', 'Lớp 12A1 • KBF3CD');
             enterApp('prevent');
         }
 
         function quickLogin(role) {
             if (role === 'teacher') {
-                setProfileIdentity('Minh Tuấn Hoàng', 'Giáo viên', 'GV Chủ nhiệm 12A1');
+                setProfileIdentity('Giáo viên', 'Giáo viên', 'GV Chủ nhiệm');
                 enterApp('classroom');
             } else {
-                setProfileIdentity('Test 2', 'Học sinh', 'Lớp 12A1 • KBF3CD');
+                setProfileIdentity('Học sinh Test', 'Học sinh', 'Lớp 12A1 • KBF3CD');
                 enterApp('prevent');
             }
         }
@@ -2660,9 +2589,148 @@
             if (tab === 'report') renderProgressCharts();
         }
 
+        // --- BẢNG LỊCH CHỌN NGÀY (ĐỊNH DẠNG DD/MM/YYYY) ---
+        const diaryCalendarState = {
+            month: 9, // Tháng 10 (0-indexed)
+            year: 2026,
+            selectedDate: '24/10/2026'
+        };
+
+        function parseDdMmYyyy(str) {
+            if (!str) return null;
+            const parts = str.split('/');
+            if (parts.length !== 3) return null;
+            const d = parseInt(parts[0], 10);
+            const m = parseInt(parts[1], 10) - 1;
+            const y = parseInt(parts[2], 10);
+            if (isNaN(d) || isNaN(m) || isNaN(y)) return null;
+            return { d, m, y };
+        }
+
+        function formatDdMmYyyy(d, m, y) {
+            return `${String(d).padStart(2, '0')}/${String(m + 1).padStart(2, '0')}/${y}`;
+        }
+
+        function toggleDiaryCalendar(e) {
+            if (e) e.stopPropagation();
+            const popup = document.getElementById('diary-calendar-popup');
+            if (!popup) return;
+            const isHidden = popup.classList.contains('hidden');
+            if (isHidden) {
+                const currentVal = document.getElementById('diary-date')?.value.trim() || '24/10/2026';
+                const parsed = parseDdMmYyyy(currentVal);
+                if (parsed) {
+                    diaryCalendarState.month = parsed.m;
+                    diaryCalendarState.year = parsed.y;
+                    diaryCalendarState.selectedDate = formatDdMmYyyy(parsed.d, parsed.m, parsed.y);
+                }
+                renderDiaryCalendar();
+                popup.classList.remove('hidden');
+                lucide.createIcons();
+            } else {
+                popup.classList.add('hidden');
+            }
+        }
+
+        function closeDiaryCalendar() {
+            const popup = document.getElementById('diary-calendar-popup');
+            if (popup) popup.classList.add('hidden');
+        }
+
+        function changeDiaryCalendarMonth(delta) {
+            diaryCalendarState.month += delta;
+            if (diaryCalendarState.month < 0) {
+                diaryCalendarState.month = 11;
+                diaryCalendarState.year--;
+            } else if (diaryCalendarState.month > 11) {
+                diaryCalendarState.month = 0;
+                diaryCalendarState.year++;
+            }
+            renderDiaryCalendar();
+        }
+
+        function renderDiaryCalendar() {
+            const titleEl = document.getElementById('diary-calendar-title');
+            const daysGrid = document.getElementById('diary-calendar-days');
+            if (!titleEl || !daysGrid) return;
+
+            const m = diaryCalendarState.month;
+            const y = diaryCalendarState.year;
+            titleEl.textContent = `Tháng ${String(m + 1).padStart(2, '0')} / ${y}`;
+
+            const firstDayOfMonth = new Date(y, m, 1).getDay(); // 0: CN, 1: T2 ...
+            const offset = firstDayOfMonth === 0 ? 6 : firstDayOfMonth - 1; // Đưa Thứ 2 về cột đầu
+            const daysInMonth = new Date(y, m + 1, 0).getDate();
+            const loggedDates = new Set(appState.diary7Days.map(item => item.date));
+
+            let html = '';
+            for (let i = 0; i < offset; i++) {
+                html += `<div class="h-8"></div>`;
+            }
+
+            for (let d = 1; d <= daysInMonth; d++) {
+                const fullDate = formatDdMmYyyy(d, m, y);
+                const isSelected = fullDate === diaryCalendarState.selectedDate;
+                const hasLog = loggedDates.has(fullDate);
+
+                const btnClass = isSelected
+                    ? 'bg-theme-primary text-white font-bold shadow-sm'
+                    : hasLog
+                        ? 'bg-teal-50 text-teal-900 font-semibold hover:bg-teal-100 border border-teal-200/80'
+                        : 'text-slate-700 hover:bg-slate-100';
+
+                const dotHtml = hasLog
+                    ? `<span class="w-1 h-1 rounded-full ${isSelected ? 'bg-amber-300' : 'bg-teal-500'} mx-auto mt-0.5 block"></span>`
+                    : `<span class="w-1 h-1 mx-auto mt-0.5 block"></span>`;
+
+                html += `
+                <button type="button" onclick="selectDiaryCalendarDate('${fullDate}')" class="h-8 rounded-xl flex flex-col items-center justify-center transition ${btnClass}">
+                    <span class="leading-none text-[11px]">${d}</span>
+                    ${dotHtml}
+                </button>`;
+            }
+
+            daysGrid.innerHTML = html;
+        }
+
+        function selectDiaryCalendarDate(dateStr) {
+            diaryCalendarState.selectedDate = dateStr;
+            const input = document.getElementById('diary-date');
+            if (input) input.value = dateStr;
+
+            // Nếu ngày được chọn đã có dữ liệu trong nhật ký thì tự động điền lên form
+            const existing = appState.diary7Days.find(d => d.date === dateStr);
+            if (existing) {
+                document.getElementById('diary-video-mins').value = existing.video;
+                document.getElementById('diary-focus-mins').value = existing.focus;
+                document.getElementById('diary-focus-rating').value = existing.rating;
+                document.getElementById('diary-note').value = existing.note || '';
+            }
+
+            renderDiaryCalendar();
+            closeDiaryCalendar();
+        }
+
+        function selectTodayInDiaryCalendar() {
+            const now = new Date();
+            const d = now.getDate();
+            const m = now.getMonth();
+            const y = now.getFullYear();
+            diaryCalendarState.month = m;
+            diaryCalendarState.year = y;
+            selectDiaryCalendarDate(formatDdMmYyyy(d, m, y));
+        }
+
+        document.addEventListener('click', function (e) {
+            const wrapper = document.getElementById('diary-date-picker-wrapper');
+            if (wrapper && !wrapper.contains(e.target)) {
+                closeDiaryCalendar();
+            }
+        });
+
         function saveDailyDiary(e) {
             e.preventDefault();
-            const date = document.getElementById('diary-date').value.trim() || '03-24';
+            const date = document.getElementById('diary-date').value.trim() || '24/10/2026';
             const video = parseInt(document.getElementById('diary-video-mins').value) || 0;
             const focus = parseInt(document.getElementById('diary-focus-mins').value) || 0;
             const rating = parseInt(document.getElementById('diary-focus-rating').value) || 3;
@@ -2687,7 +2755,7 @@
             switchPerformTab('report');
         }
 
-        // --- TRỢ LÝ ẢO GEM "🤖POP-AI - TRỢ LÝ HỌC TẬP SỐ" (GEMINI API + GOOGLE GEMINI GEM) ---
+        // --- TRỢ LÝ ẢO GEM "POP-AI 🤖 - TRỢ LÝ HỌC TẬP SỐ" (GEMINI API + GOOGLE GEMINI GEM) ---
         const DEFAULT_GEM_URL = 'https://gemini.google.com/app';
 
         function getStoredApiKey() {
@@ -2807,7 +2875,7 @@
         }
 
         function updatePopAiContextPills() {
-            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '03-24', video: 35, focus: 37 };
+            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '24/10/2026', video: 35, focus: 37 };
             const pillScores = document.getElementById('ai-ctx-pill-scores');
             const pillDetox = document.getElementById('ai-ctx-pill-detox');
             const pillDiary = document.getElementById('ai-ctx-pill-diary');
@@ -2818,7 +2886,7 @@
         }
 
         function buildPopAiSystemInstruction() {
-            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '03-24', video: 35, focus: 37, rating: 3, note: '' };
+            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '24/10/2026', video: 35, focus: 37, rating: 3, note: '' };
             const completedCount = appState.completedDays21 ? appState.completedDays21.length : 9;
 
             return `Bạn là POP-AI - Trợ lý học tập số đồng hành cùng học sinh THPT nhằm phục hồi khả năng tập trung sâu và giảm hội chứng Popcorn Brain (Não bỏng ngô).
@@ -2999,13 +3067,13 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
             if (appState.chartMode === 'single') {
                 videoSvg.innerHTML = buildSinglePointChartSVG(
                     ['36.0', '35.8', '35.6', '35.4', '35.2', '35.0', '34.8', '34.6', '34.4', '34.2', '34.0'],
-                    ['03-18', '03-19', '03-20', '03-21', '03-22', '03-23', '03-24'],
+                    ['18/10/2026', '19/10/2026', '20/10/2026', '21/10/2026', '22/10/2026', '23/10/2026', '24/10/2026'],
                     5,
                     videoColor
                 );
                 focusSvg.innerHTML = buildSinglePointChartSVG(
                     ['38', '38', '38', '37', '37', '37', '37', '36', '36'],
-                    ['03-18', '03-19', '03-20', '03-21', '03-22', '03-23', '03-24'],
+                    ['18/10/2026', '19/10/2026', '20/10/2026', '21/10/2026', '22/10/2026', '23/10/2026', '24/10/2026'],
                     4,
                     focusColor
                 );
@@ -3025,7 +3093,7 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
         }
 
         function buildSinglePointChartSVG(yLabels, xLabels, activeYIndex, color) {
-            const padLeft = 36, padRight = 14, padTop = 10, padBottom = 26;
+            const padLeft = 38, padRight = 24, padTop = 10, padBottom = 26;
             const w = 380 - padLeft - padRight;
             const h = 200 - padTop - padBottom;
             let svg = '';
@@ -3039,7 +3107,7 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
             xLabels.forEach((label, i) => {
                 const x = padLeft + (i / (xLabels.length - 1)) * w;
                 svg += `<line x1="${x}" y1="${padTop}" x2="${x}" y2="${padTop + h}" stroke="#E2E8F0" stroke-width="1"/>`;
-                svg += `<text x="${x}" y="${padTop + h + 14}" text-anchor="middle" font-size="8.5" fill="#64748B">${label}</text>`;
+                svg += `<text x="${x}" y="${padTop + h + 14}" text-anchor="middle" font-size="7.2" fill="#64748B">${label}</text>`;
             });
 
             const ptX = padLeft + w;
@@ -3049,7 +3117,7 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
         }
 
         function buildLineChartSVG(xLabels, values, minY, maxY, color) {
-            const padLeft = 36, padRight = 14, padTop = 12, padBottom = 26;
+            const padLeft = 38, padRight = 24, padTop = 12, padBottom = 26;
             const w = 380 - padLeft - padRight;
             const h = 200 - padTop - padBottom;
             let svg = '';
@@ -3069,7 +3137,7 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
                 const y = padTop + h - ((clamped - minY) / (maxY - minY)) * h;
                 points.push(`${x},${y}`);
                 svg += `<line x1="${x}" y1="${padTop}" x2="${x}" y2="${padTop + h}" stroke="#E2E8F0" stroke-width="1"/>`;
-                svg += `<text x="${x}" y="${padTop + h + 14}" text-anchor="middle" font-size="8.5" fill="#64748B">${label}</text>`;
+                svg += `<text x="${x}" y="${padTop + h + 14}" text-anchor="middle" font-size="7.2" fill="#64748B">${label}</text>`;
             });
 
             svg += `<polyline fill="none" stroke="${color}" stroke-width="2.5" points="${points.join(' ')}"/>`;
@@ -3136,7 +3204,7 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
         }
 
         async function generatePopAiResponse(userQuery) {
-            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '03-24', video: 35, focus: 37, rating: 3 };
+            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '24/10/2026', video: 35, focus: 37, rating: 3 };
             const systemPrompt = buildPopAiSystemInstruction();
             const storedKey = getStoredApiKey();
             const apiKey = storedKey || "";
@@ -3212,7 +3280,7 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
             if (qLower.includes('7 ngày') || qLower.includes('30 ngày') || qLower.includes('nhật ký') || qLower.includes('hành vi số')) {
                 const vStart = appState.diary7Days[0].video;
                 return `🐝 **Chú Ong Bee tổng kết hành trình của ${appState.user.name} đây!** Bạn đã hoàn thành **${completedCount}/30 ngày** trong Nhật ký 30 ngày cùng Bee rồi đó!\n` +
-                       `💡 **Điểm sáng số liệu 7 ngày qua:** Thời gian xem video ngắn của bạn đã giảm từ **${vStart} phút** (ngày 03-18) xuống còn **${lastLog.video} phút** (ngày ${lastLog.date}), trong khi thời gian tập trung sâu tăng từ **15 phút** lên **${lastLog.focus} phút/ngày**.\n` +
+                       `💡 **Điểm sáng số liệu 7 ngày qua:** Thời gian xem video ngắn của bạn đã giảm từ **${vStart} phút** (ngày 18/10/2026) xuống còn **${lastLog.video} phút** (ngày ${lastLog.date}), trong khi thời gian tập trung sâu tăng từ **15 phút** lên **${lastLog.focus} phút/ngày**.\n` +
                        `⚡ **Bí quyết duy trì phong độ (Perform):**\n` +
                        `1) Tiếp tục giữ vững khung giờ **30 phút không thông báo** (**${appState.plan.detoxFrom} – ${appState.plan.detoxTo}**).\n` +
                        `2) Áp dụng **Đóng sách nhớ lại (Active Recall)** cuối mỗi buổi học để củng cố kiến thức bền vững.\n` +
@@ -3235,56 +3303,133 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
             return text.split('\n').filter(line => line.trim() !== '').map(line => `<p>${escapeHtml(line).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')}</p>`).join('');
         }
 
-        // --- MỤC 5: LỚP HỌC CỦA BẠN ---
+        // --- MỤC 5: LỚP HỌC CỦA BẠN (LOGIC ĐỒNG BỘ TRỰC TIẾP & DỮ LIỆU HỒ SƠ) ---
         function handleClassSwitch(mode) {
             const studentsEl = document.getElementById('class-stat-students');
             const assessedEl = document.getElementById('class-stat-assessed');
             const diaryEl = document.getElementById('class-stat-diary7d');
             const focusEl = document.getElementById('class-stat-avgfocus');
+            const focusLabelEl = document.getElementById('class-stat-avgfocus-label');
+            const titleEl = document.getElementById('class-table-title');
+            const badgeEl = document.getElementById('class-table-badge');
+            const descEl = document.getElementById('class-table-desc');
+            const theadEl = document.getElementById('class-table-head');
             const tbody = document.getElementById('class-live-tbody');
+            if (!tbody) return;
 
-            if (mode === 'empty') {
+            const lastLog = appState.diary7Days[appState.diary7Days.length - 1] || { date: '24/10/2026', video: 35, focus: 37 };
+            const currentTask = appState.plan.mainTask || 'Ôn tập chương 3 môn Toán';
+            const currentStudentStatus = appState.timer.running
+                ? `<span class="px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 font-semibold">● Đang chạy Đồng hồ tập trung (${appState.plan.sessionDuration}p) — ${escapeHtml(currentTask)}</span>`
+                : `<span class="px-2.5 py-1 rounded-full bg-teal-50 text-teal-800 font-semibold">Đã tập trung ${lastLog.focus} phút hôm nay — ${escapeHtml(currentTask)}</span>`;
+
+            if (mode === 'active') {
+                // CHẾ ĐỘ 1: 12A1 (ĐANG HOẠT ĐỘNG TRỰC TIẾP - CHƯA CÓ DỮ LIỆU TRỰC TIẾP NHƯ ẢNH)
                 studentsEl.textContent = '0';
                 assessedEl.textContent = '0';
                 diaryEl.textContent = '0%';
                 focusEl.textContent = '0';
+                if (focusLabelEl) focusLabelEl.textContent = 'Phiên tập trung TB';
+
+                if (titleEl) titleEl.textContent = 'Đang diễn ra trong lớp (trực tiếp)';
+                if (badgeEl) {
+                    badgeEl.textContent = 'Tự cập nhật — không cần tải lại trang';
+                    badgeEl.className = 'text-[11px] text-slate-400';
+                }
+                if (descEl) descEl.textContent = 'Chỉ hiển thị nền tảng giảm/đang xem (nếu có) — không ghi lại địa chỉ trang khác, để tôn trọng quyền riêng tư của học sinh.';
+                if (theadEl) {
+                    theadEl.innerHTML = `
+                        <th class="py-2.5 px-3 font-semibold w-1/3">Họ tên</th>
+                        <th class="py-2.5 px-3 font-semibold w-1/3">Trạng thái</th>
+                        <th class="py-2.5 px-3 font-semibold w-1/3">Cập nhật</th>`;
+                }
+
                 tbody.innerHTML = `
                     <tr>
                         <td colspan="3" class="py-8 text-center text-slate-400 text-xs">
                             Chưa có dữ liệu trực tiếp — học sinh cần cài tiện ích và tham gia lớp.
                         </td>
                     </tr>`;
-            } else if (mode === 'active') {
+            } else if (mode === 'data') {
+                // CHẾ ĐỘ 2: 12A1 (DỮ LIỆU HỒ SƠ LỚP 7 NGÀY)
                 studentsEl.textContent = '38';
                 assessedEl.textContent = '36';
                 diaryEl.textContent = '84%';
                 focusEl.textContent = '2.4';
+                if (focusLabelEl) focusLabelEl.textContent = 'Phiên tập trung TB/ngày';
+
+                if (titleEl) titleEl.textContent = 'Hồ sơ dữ liệu rèn luyện P.O.P';
+                if (badgeEl) {
+                    badgeEl.textContent = 'Đã đồng bộ 36/38 hồ sơ 7 ngày';
+                    badgeEl.className = 'text-[11px] font-semibold text-theme-primary bg-theme-soft px-2.5 py-0.5 rounded-full';
+                }
+                if (descEl) descEl.textContent = 'Tổng hợp điểm tự đánh giá nguy cơ Popcorn Brain (PB), khả năng Tập trung sâu (TT) và xu hướng giảm thời lượng xem video ngắn sau 7 ngày.';
+                if (theadEl) {
+                    theadEl.innerHTML = `
+                        <th class="py-2.5 px-3 font-semibold">Họ tên học sinh</th>
+                        <th class="py-2.5 px-3 font-semibold">Chỉ số PB & Tập trung (TT)</th>
+                        <th class="py-2.5 px-3 font-semibold">Xu hướng Video ngắn (7 ngày)</th>
+                        <th class="py-2.5 px-3 font-semibold">Nhật ký 30 ngày</th>`;
+                }
+
+                const vStart = appState.diary7Days[0] ? appState.diary7Days[0].video : 115;
+                const completedDays = appState.completedDays21 ? appState.completedDays21.length : 9;
+
                 tbody.innerHTML = `
+                    <tr class="border-b border-slate-100 bg-indigo-50/30">
+                        <td class="py-3 px-3 font-bold text-slate-900">${escapeHtml(appState.user.role === 'Học sinh' ? appState.user.name : 'Học sinh Test')}</td>
+                        <td class="py-3 px-3">PB: <strong class="text-rose-600">${appState.scores.pb}</strong> • TT: <strong class="text-teal-700">${appState.scores.tt}</strong>/5</td>
+                        <td class="py-3 px-3"><span class="text-emerald-700 font-semibold">Giảm từ ${vStart}p → ${lastLog.video}p/ngày</span> (Tập trung: ${lastLog.focus}p)</td>
+                        <td class="py-3 px-3"><span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 font-bold">🐝 ${completedDays}/30 ngày</span></td>
+                    </tr>
                     <tr class="border-b border-slate-100">
-                        <td class="py-3 px-3 font-semibold text-slate-800">Nguyễn Minh An (Test 2)</td>
-                        <td class="py-3 px-3"><span class="px-2.5 py-1 rounded-full bg-teal-50 text-teal-800 font-semibold">Đang tập trung Pomodoro (25p) — Môn Toán</span></td>
-                        <td class="py-3 px-3 text-slate-400">Vừa xong</td>
+                        <td class="py-3 px-3 font-semibold text-slate-800">Nguyễn Minh An</td>
+                        <td class="py-3 px-3">PB: <strong class="text-rose-600">2.60</strong> • TT: <strong class="text-teal-700">4.00</strong>/5</td>
+                        <td class="py-3 px-3"><span class="text-emerald-700 font-semibold">Giảm từ 110p → 40p/ngày</span> (Tập trung: 45p)</td>
+                        <td class="py-3 px-3"><span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 font-bold">🐝 12/30 ngày</span></td>
                     </tr>
                     <tr class="border-b border-slate-100">
                         <td class="py-3 px-3 font-semibold text-slate-800">Trần Thu Hà</td>
-                        <td class="py-3 px-3"><span class="px-2.5 py-1 rounded-full bg-indigo-50 text-indigo-800 font-semibold">Đã kích hoạt giới hạn TikTok/Reels (Khung 19:30–20:30)</span></td>
-                        <td class="py-3 px-3 text-slate-400">2 phút trước</td>
+                        <td class="py-3 px-3">PB: <strong class="text-rose-600">2.80</strong> • TT: <strong class="text-teal-700">3.80</strong>/5</td>
+                        <td class="py-3 px-3"><span class="text-emerald-700 font-semibold">Giảm từ 125p → 45p/ngày</span> (Tập trung: 40p)</td>
+                        <td class="py-3 px-3"><span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 font-bold">🐝 10/30 ngày</span></td>
+                    </tr>
+                    <tr class="border-b border-slate-100">
+                        <td class="py-3 px-3 font-semibold text-slate-800">Lê Hoàng Nam</td>
+                        <td class="py-3 px-3">PB: <strong class="text-rose-600">2.40</strong> • TT: <strong class="text-teal-700">4.20</strong>/5</td>
+                        <td class="py-3 px-3"><span class="text-emerald-700 font-semibold">Giảm từ 95p → 30p/ngày</span> (Tập trung: 50p)</td>
+                        <td class="py-3 px-3"><span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 font-bold">🐝 14/30 ngày</span></td>
                     </tr>
                     <tr>
-                        <td class="py-3 px-3 font-semibold text-slate-800">Lê Hoàng Nam</td>
-                        <td class="py-3 px-3"><span class="px-2.5 py-1 rounded-full bg-amber-50 text-amber-800 font-semibold">Vừa hoàn thành 37 phút tập trung sâu</span></td>
-                        <td class="py-3 px-3 text-slate-400">5 phút trước</td>
+                        <td class="py-3 px-3 font-semibold text-slate-800">Phạm Khánh Linh</td>
+                        <td class="py-3 px-3">PB: <strong class="text-rose-600">2.90</strong> • TT: <strong class="text-teal-700">3.60</strong>/5</td>
+                        <td class="py-3 px-3"><span class="text-emerald-700 font-semibold">Giảm từ 130p → 50p/ngày</span> (Tập trung: 35p)</td>
+                        <td class="py-3 px-3"><span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 font-bold">🐝 8/30 ngày</span></td>
                     </tr>`;
             } else {
-                studentsEl.textContent = '115';
-                assessedEl.textContent = '115';
-                diaryEl.textContent = '96%';
-                focusEl.textContent = '3.78';
+                // CHẾ ĐỘ 4: LỚP MỚI KHỞI TẠO (CHƯA CÓ HỌC SINH)
+                studentsEl.textContent = '0';
+                assessedEl.textContent = '0';
+                diaryEl.textContent = '0%';
+                focusEl.textContent = '0';
+                if (focusLabelEl) focusLabelEl.textContent = 'Phiên tập trung TB/ngày';
+
+                if (titleEl) titleEl.textContent = 'Danh sách học sinh trong lớp mới';
+                if (badgeEl) {
+                    badgeEl.textContent = 'Đang chờ học sinh tham gia';
+                    badgeEl.className = 'text-[11px] font-semibold text-slate-500 bg-slate-100 px-2.5 py-0.5 rounded-full';
+                }
+                if (theadEl) {
+                    theadEl.innerHTML = `
+                        <th class="py-2.5 px-3 font-semibold w-1/3">Họ tên</th>
+                        <th class="py-2.5 px-3 font-semibold w-1/3">Trạng thái</th>
+                        <th class="py-2.5 px-3 font-semibold w-1/3">Cập nhật</th>`;
+                }
                 tbody.innerHTML = `
                     <tr>
-                        <td class="py-3 px-3 font-semibold text-slate-800">Nhóm Thực nghiệm P.O.P (N=115)</td>
-                        <td class="py-3 px-3"><span class="px-2.5 py-1 rounded-full bg-teal-50 text-teal-800 font-semibold">Giảm biểu hiện Popcorn Brain: Mean 2.74 (T = -6.84, Sig. = 0.000)</span></td>
-                        <td class="py-3 px-3 text-slate-400">Đã kiểm định JASP</td>
+                        <td colspan="3" class="py-8 text-center text-slate-400 text-xs">
+                            Lớp mới khởi tạo chưa có dữ liệu — hãy chia sẻ mã tham gia lớp ở trên cho học sinh.
+                        </td>
                     </tr>`;
             }
         }
@@ -3301,11 +3446,26 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
         }
 
         function createNewClassPrompt() {
-            const codes = ['KBF3CD', 'EBF4CC', 'POP10A', 'THPT26'];
+            const codes = ['POP10A', 'THPT26', 'EBF4CC', 'KBF3CD'];
+            const classNames = ['Lớp mới tạo', 'Lớp mới tạo', 'Lớp mới tạo'];
             const current = document.getElementById('class-join-code').textContent;
-            const next = codes[(codes.indexOf(current) + 1) % codes.length];
-            document.getElementById('class-join-code').textContent = next;
-            showToast(`Đã tạo mã lớp học mới: ${next}`);
+            const nextCode = codes[(codes.indexOf(current) + 1) % codes.length];
+            const nextName = classNames[Math.floor(Math.random() * classNames.length)];
+
+            document.getElementById('class-join-code').textContent = nextCode;
+            const selectEl = document.getElementById('classroom-select');
+            if (selectEl) {
+                let emptyOpt = selectEl.querySelector('option[value="empty"]');
+                if (!emptyOpt) {
+                    emptyOpt = document.createElement('option');
+                    emptyOpt.value = 'empty';
+                    selectEl.appendChild(emptyOpt);
+                }
+                emptyOpt.textContent = `${nextName} • Mã ${nextCode}`;
+                selectEl.value = 'empty';
+                handleClassSwitch('empty');
+            }
+            showToast(`Đã tạo lớp mới (${nextName}) với mã tham gia: ${nextCode}`);
         }
 
         // --- CHUYỂN ĐỔI NHANH CHẾ ĐỘ "HIỆN TẠI" VS "ĐỦ DỮ LIỆU 7 NGÀY" ---
@@ -3313,6 +3473,7 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
             const btnShot = document.getElementById('preset-btn-screenshot');
             const btnFull = document.getElementById('preset-btn-full');
             const indicator = document.getElementById('mode-indicator');
+            const selectEl = document.getElementById('classroom-select');
 
             if (preset === 'screenshot') {
                 if (btnShot && btnFull) {
@@ -3321,8 +3482,8 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
                 }
                 if (indicator) indicator.textContent = 'Hiện tại';
                 setChartMode('single');
-                document.getElementById('classroom-select').value = 'empty';
-                handleClassSwitch('empty');
+                if (selectEl) selectEl.value = 'active';
+                handleClassSwitch('active');
                 document.getElementById('plan-current-video').value = '';
                 document.getElementById('plan-target-video').value = '';
                 document.getElementById('plan-main-task').value = '';
@@ -3334,12 +3495,12 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
                 }
                 if (indicator) indicator.textContent = 'Đủ 7 ngày';
                 setChartMode('week');
-                document.getElementById('classroom-select').value = 'active';
-                handleClassSwitch('active');
+                if (selectEl) selectEl.value = 'data';
+                handleClassSwitch('data');
                 document.getElementById('plan-current-video').value = '120';
                 document.getElementById('plan-target-video').value = '45';
                 document.getElementById('plan-main-task').value = 'Ôn tập chương 3 môn Toán';
-                showToast('Đã nạp đầy đủ dữ liệu tiến bộ 7 ngày và lớp học thực nghiệm!');
+                showToast('Đã nạp đầy đủ dữ liệu tiến bộ 7 ngày và hồ sơ lớp 12A1!');
             }
         }
 
@@ -3357,6 +3518,8 @@ HỒ SƠ CÁ NHÂN THỜI GIAN THỰC CỦA HỌC SINH ĐANG TRÒ CHUYỆN:
             updateKeyBadge();
             updatePopAiContextPills();
             syncGemConfigInputs();
+            const selectEl = document.getElementById('classroom-select');
+            handleClassSwitch(selectEl ? selectEl.value : 'active');
             lucide.createIcons();
         }
 
